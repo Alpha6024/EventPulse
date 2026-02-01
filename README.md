@@ -4,6 +4,22 @@
 
 ---
 
+## 📸 Project Gallery
+
+### Admin Insights & Reports
+<img src="https://github.com/user-attachments/assets/e38d0d6b-fb97-46a6-b006-f3db510f4030" width="100%" alt="Admin Dashboard Stats" />
+*Overview of system-wide analytics and user engagement.*
+
+### Organizer & Student Portals
+<img src="https://github.com/user-attachments/assets/c5322799-9a2c-48cd-a5f5-5a29ba702a77" width="100%" alt="Event Management" />
+<img src="https://github.com/user-attachments/assets/2c655551-8ee8-463d-8101-89fd13dcd6d3" width="100%" alt="User Interface" />
+
+### Dynamic Certification System
+<img src="https://github.com/user-attachments/assets/52f79eb8-c1c3-40d2-a895-97909cebf6c9" width="100%" alt="Certificate Configuration" />
+<img src="https://github.com/user-attachments/assets/f3be396a-3513-4c13-91f2-b76b3a938ca7" width="100%" alt="Generated Certificate" />
+
+---
+
 ## 🌟 Key Features
 
 ### 🎓 Student Portal
@@ -13,8 +29,8 @@
 
 ### 🏢 Organizer Portal
 - **Event Lifecycle:** Create, manage, and end events.
-- **Certificate Designer:** Configure custom $(X, Y)$ coordinates for names and unique IDs on certificate templates.
-- **Data Export:** Generate professional Excel reports of all participants and their claim status.
+- **Certificate Designer:** Configure custom coordinates for names and unique IDs on templates.
+- **Data Export:** Generate professional Excel reports of all participants.
 
 ### 🛠 Admin Dashboard
 - **Global Stats:** Overview of total students, organizers, and events.
@@ -25,7 +41,7 @@
 
 ## 💻 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS, Framer Motion (Animations), Axios.
+- **Frontend:** React.js, Tailwind CSS, Framer Motion, Axios.
 - **Backend:** Node.js, Express.js.
 - **Database:** MongoDB (Mongoose).
 - **Processing:** - `Canvas API` (Dynamic Certificate Generation)
@@ -38,19 +54,21 @@
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Project
-```bash
+
 git clone [https://github.com/Alpha6024/EventPulse.git](https://github.com/Alpha6024/EventPulse.git)
 cd EventPulse
 
+### 2. Backend Setup
 
-<img width="1920" height="1080" alt="Screenshot 2026-02-01 161134" src="https://github.com/user-attachments/assets/e38d0d6b-fb97-46a6-b006-f3db510f4030" />
+cd backend
+npm install
+# Create a .env file with MONGO_URI, JWT_SECRET, and PORT
+node server.js
 
-<img width="1920" height="1080" alt="Screenshot 2026-02-01 161144" src="https://github.com/user-attachments/assets/c5322799-9a2c-48cd-a5f5-5a29ba702a77" />
+### 3. Frontend Setup
 
-<img width="1920" height="1080" alt="Screenshot 2026-02-01 161259" src="https://github.com/user-attachments/assets/2c655551-8ee8-463d-8101-89fd13dcd6d3" />
+cd ../frontend
+npm install
+npm run dev
 
-<img width="1920" height="1080" alt="Screenshot 2026-02-01 161326" src="https://github.com/user-attachments/assets/52f79eb8-c1c3-40d2-a895-97909cebf6c9" />
-
-<img width="1920" height="1080" alt="Screenshot 2026-02-01 161457" src="https://github.com/user-attachments/assets/f3be396a-3513-4c13-91f2-b76b3a938ca7" />
-
-
+Developed with ❤️ by Alpha6024
