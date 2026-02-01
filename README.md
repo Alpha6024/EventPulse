@@ -62,7 +62,7 @@ cd EventPulse
 
 cd backend
 npm install
-# Create a .env file with MONGO_URI, JWT_SECRET, and PORT
+Create a .env file with MONGO_URI, JWT_SECRET, and PORT
 node server.js
 
 ### 3. Frontend Setup
